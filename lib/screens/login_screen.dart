@@ -44,7 +44,9 @@ class LoginScreen extends StatelessWidget {
                 final loginProvider =
                     Provider.of<LoginProvider>(context, listen: false);
                 loginProvider.login(email, password).then((_) {
-                  if (loginProvider.user == null) {
+                  if (loginProvider.user != null) {
+                    Navigator.of(context).pushReplacementNamed('/');
+                  } else {
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(content: Text('Error al iniciar sesión')),
                     );
