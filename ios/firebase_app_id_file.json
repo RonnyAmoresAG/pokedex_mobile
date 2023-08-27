@@ -1,7 +1,7 @@
 {
   "file_generated_by": "FlutterFire CLI",
   "purpose": "FirebaseAppID & ProjectID for this Firebase app in this directory",
-  "GOOGLE_APP_ID": "1:224013550733:ios:16b6abd056a48a507a4ec4",
-  "FIREBASE_PROJECT_ID": "pokedex-flutter-cbf26",
-  "GCM_SENDER_ID": "224013550733"
+  "GOOGLE_APP_ID": "1:973525613629:ios:3e1312587bc0c2041cbe54",
+  "FIREBASE_PROJECT_ID": "pokedex-mobile-2c33a",
+  "GCM_SENDER_ID": "973525613629"
 }
